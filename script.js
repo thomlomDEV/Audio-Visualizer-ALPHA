@@ -230,7 +230,7 @@ function frameLooper() {
 	ctx.fill();
 	
 	// shockwave effect			
-	shockwave += 60;
+	shockwave += 70;
 				
 	ctx.lineWidth = 15;
 	ctx.strokeStyle = "rgb(255, 255, 255)";
