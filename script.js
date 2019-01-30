@@ -233,7 +233,7 @@ function frameLooper() {
 	shockwave += 70;
 				
 	ctx.lineWidth = 15;
-	ctx.strokeStyle = "rgb(255, 255, 255)";
+	ctx.strokeStyle = "rgb(0, 0, 0)";
 	ctx.beginPath();
 	ctx.arc(center_x, center_y, shockwave + radius, 0, Math.PI * 2, false);
 	ctx.stroke();
