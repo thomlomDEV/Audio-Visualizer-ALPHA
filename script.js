@@ -221,7 +221,7 @@ function frameLooper() {
 	center_y = canvas.height / 2 - (react_y * 0.007);
 				
 	radius_old = radius;
-	radius =  30 + (intensity * 0.002);
+	radius =  25 + (intensity * 0.002);
 	deltarad = radius - radius_old;
 				
 	ctx.fillStyle = "rgb(255, 255, 255)";
